@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #545454; 
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #545454;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none; 
+}
+section{
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container-fluid{
+  display: flex;
+  padding: 10px 70px;
+}
+section .container-fluid{
+  height: 100%;
+}
+.content-inner{
+  align-self: flex-end;
+  padding-bottom: 70px;
+}
+.navbar-brand img{
+
+width: 95%;
+}
+.nav-item{
+
+}
+.nav-item a{
+
+font-size: 15px;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+padding: 0px 20px !important;
+}
+.nav-link{
+
+}
+.picture-1{
+  background-image: url(../images/p1.jpg);
+}
+.picture-2{
+  background-image: url(../images/p2.jpg);
+}
+.picture-3{
+  background-image: url(../images/p3.jpg);
+}
+.picture-4{
+  background-image: url(../images/p4.jpg);
+}
+.picture-5{
+  background-image: url(../images/p5.jpg);
+}
+.picture-6{
+  background-image: url(../images/p6.jpg);
+}
+
+.content-inner h4{
+  
+font-size: 14px;
+  
+text-transform: uppercase;
+  
+font-weight: 600;
+  
+margin-bottom: 10px;
+}
+.content-inner h2{
+  
+display: block;
+  
+background-color: white;
+  
+padding: 16px 35px;
+  
+font-size: 28px;
+  
+margin: 0;
+  
+font-weight: 500;
+}
+.content-inner h3{
+  
+display: inline-block;
+  
+background: black;
+  
+color: white;
+  
+font-size: 15px;
+  
+padding: 5px 17px;
+  
+margin: 0;
+}
+
+footer{
+  padding: 50px 130px;
+}
+.footer-inner-1{
+
+}
+.footer-inner-1 img{
+
+}
+.footer-inner-2{
+  text-align: center;
+  padding: 15px;
+}
+.footer-inner-2 h4{
+  
+font-size: 18px;
+}
+.footer-inner-3{
+  
+}
+.footer-inner-3 .nav{
+  justify-content: flex-end;
+}
+.footer-inner-3 a{
+  
+color: black;
+  
+font-size: 24px;
+}
